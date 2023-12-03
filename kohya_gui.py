@@ -142,4 +142,5 @@ if __name__ == "__main__":
         listen=args.listen,
         headless=args.headless,
         language=args.language,
+        prevent_thread_lock=True,
     )
